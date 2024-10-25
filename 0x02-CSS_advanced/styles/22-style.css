@@ -115,7 +115,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-
 }
 
 .nav .nav-link {
@@ -178,6 +177,12 @@ ul.row {
     content: "";
     display: table;
     clear: both;
+}
+
+[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
 
 .container {
